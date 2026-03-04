@@ -1,0 +1,26 @@
+{
+  "name": "holos-wisdom-spice-and-wolf",
+  "displayName": "Holo's Wisdom - Spice and Wolf Theme",
+  "description": "A warm, rustic theme inspired by Holo the Wise Wolf.",
+  "version": "1.0.3",
+  "publisher": "yeshuarey",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yeshuarey/HoloTheme.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Holo's Wisdom",
+        "uiTheme": "vs-dark",
+        "path": "./themes/holo-theme.json"
+      }
+    ]
+  }
+}
